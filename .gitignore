@@ -1,0 +1,12 @@
+# Terraform ၏ binary ဖိုင်များ (plugins) ကို ဖယ်ထုတ်ရန်
+.terraform/
+
+# State ဖိုင်များကို GitHub ပေါ်မတင်ရန် (Security အရ အရေးကြီးသည်)
+*.tfstate
+*.tfstate.*
+
+# Lock file ကို ဖယ်ထုတ်ရန်
+.terraform.lock.hcl
+
+# Terraform က ထုတ်ပေးသော log ဖိုင်များ
+*.log
